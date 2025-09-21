@@ -2,8 +2,8 @@ name: Build and Push Docker Compose Images
 
 on:
   push:
-    branches: [  master ]
-# testing automation on feature branches 
+    branches: [ main, master ]
+# added main in the mater branch
 jobs:
   build-and-push:
     runs-on: ubuntu-la-angelatest
