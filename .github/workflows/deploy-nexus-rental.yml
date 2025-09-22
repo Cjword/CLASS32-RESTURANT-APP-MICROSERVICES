@@ -2,7 +2,7 @@ name: Build and Push Docker Compose Images
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [master ]
 # added main in the mater branch
 jobs:
   build-and-push:
